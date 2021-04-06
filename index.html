@@ -1,128 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jamie Roszel</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update fonts here -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamie Roszel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
 
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="img/jamie_roszel_logo.png" alt="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Skills</a></li>
-                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Jamie Roszel</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">web developer</p>
-            <img src="img/Roszel_portrait.png" alt="a picture of me in front of Whitewater Falls" class="intro__img">
-        </section>
-        
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">My Skills</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design + Development</h3>
-                    <p>I write concise, testable, efficient code, using best software development practices.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Communication & Collaboration</h3>
-                    <p>With my extensive background in education, I am accustomed to collaborating with a team to achieve measurable outcomes - on a deadline.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>Learning</h3>
-                    <p>My experience as a professional educator taught me how to learn. Software is a dynamic industry and I pride myself in keeping up-to-date on modern best practices and frameworks.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Web developer based out of Raleigh, NC</p>
-           
-           <div class="about-me__body">
-               <p>I use my knowledge of software development along with my experience in education to code, deploy, and maintain modern web applications.</p>
-               <p>When I'm not writing code or working on a project, I enjoy cycling, indoors or out. Feel free to find me on Zwift or while riding gravel roads and mountain bike trails in western North Carolina.</p>
-           </div>
-           
-           <img src="img/portrait-waterfall.svg" alt="in front of another waterfall" class="about-me__img">
-        </section>
-        
-         <!-- My Work -->
-         <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="portfolio-item-topstory.html" target= "_blank" class="portfolio__item">
-                    <img src="img/floating480.svg" alt="top story NY Times news reader" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 02 -->
-                <a href="https://weatherd-h7a7b9nsu-jamieroszel.vercel.app/" target="_blank" class="portfolio__item">
-                    <img src="img/umbrellas480.svg" alt="" class="portfolio__img">
-                </a>
+    <!-- Update fonts here -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
 
-                <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/under_construction.svg" alt="Under Construction" class="portfolio__img">
-                </a>
-                        
-            </div>
-        </section>
-        
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <!-- replace with your own email address -->
-            <a href="mailto:jamie.s.roszel@gmail.com" class="footer__link">Email me</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://jamie-s-roszel.medium.com/" target="_blank"><i class="fab fa-medium"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://www.linkedin.com/in/jamie-roszel-59a2a395/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com/jamieroszel" target="_blank"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com/jamieroszel" target="_blank"><i class="fab fa-github"></i></a>
-                </li>
-            </ul>
-        </footer>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/jamie_roszel_logo.png" alt="" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-        <script src="js/index.js"></script>
-        
-    </body>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Jamie Roszel</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">web developer</p>
+      <img
+        src="img/Roszel_portrait.png"
+        alt="a picture of me in front of Whitewater Falls"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">My Skills</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            I write concise, testable, efficient code, using best software
+            development practices.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Communication & Collaboration</h3>
+          <p>
+            With my extensive background in education, I am accustomed to
+            collaborating with a team to achieve measurable outcomes - on a
+            deadline.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>Learning</h3>
+          <p>
+            My experience as a professional educator taught me how to learn.
+            Software is a dynamic industry and I pride myself in keeping
+            up-to-date on modern best practices and frameworks.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+
+      <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Web developer based out of Raleigh, NC
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I use my knowledge of software development along with my experience in
+          education to code, deploy, and maintain modern web applications.
+        </p>
+        <p>
+          When I'm not writing code or working on a project, I enjoy cycling,
+          indoors or out. Feel free to find me on Zwift or while riding gravel
+          roads and mountain bike trails in western North Carolina.
+        </p>
+      </div>
+
+      <img
+        src="img/portrait-waterfall.svg"
+        alt="in front of another waterfall"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my range of work
+      </p>
+      <div class="portfolio">
+        <!-- Portfolio item 01 -->
+        <a
+          href="portfolio-item-topstory.html"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/floating480.svg"
+            alt="top story NY Times news reader"
+            class="portfolio__img"
+          />
+        </a>
+
+        <!-- Portfolio item 02 -->
+        <a
+          href="https://weatherd-h7a7b9nsu-jamieroszel.vercel.app/"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img src="img/umbrellas480.svg" alt="" class="portfolio__img" />
+        </a>
+
+        <!-- Portfolio item 03 -->
+        <a
+          href="https://imageendless.herokuapp.com/"
+          target="_blank"
+          class="portfolio__item"
+        >
+          <img
+            src="img/infinity_480.png"
+            alt="Under Construction"
+            class="portfolio__img"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:jamie.s.roszel@gmail.com" class="footer__link"
+        >Email me</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://jamie-s-roszel.medium.com/"
+            target="_blank"
+            ><i class="fab fa-medium"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/jamie-roszel-59a2a395/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/jamieroszel"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/jamieroszel"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
 </html>
