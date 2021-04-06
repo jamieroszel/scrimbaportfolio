@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamie Roszel's portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      A {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="https://jamieroszel.com" target="_blank">
+          <img src="img/jamie_roszel_logo.png" alt="Jamie Roszel logo"
+        /></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro">
+      <h1 class="section__title section__title--intro">Image Endless</h1>
+      <p class="section__subtitle section__subtitle--intro">Store images you find online</p>
+      <img src="img/infinity.jpg" alt="infinity symbol" class="intro__img" />
+      <span>Photo by <a href="https://unsplash.com/@fredmarriage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">freddie marriage</a> on <a href="https://unsplash.com/s/photos/infinity?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+    </section>
+
+    <div class="portfolio__item-individual">
+      <p>
+        <strong>Image Endless</strong> is a web app built with Node.js, Express, and MongoDB that allows authenticated and authorized users to store and display images found online.
+      </p>
+      <p>
+        The page was built using Bulma, "a free, open source framework that provides ready-to-use frontend components that you can easily combine to build responsive web interfaces" and deployed using Heroku.
+      </p>
+      <p>
+        <a href="https://imageendless.herokuapp.com/" class = "portfolio_preview" target="_blank"
+        >Check it out here, or scroll below...
+      </p>
+      <iframe src="https://imageendless.herokuapp.com/" height="1000" width="750" frameborder="0"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:jamie.s.roszel@gmail.com" class="footer__link"
+        >Email me</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://jamie-s-roszel.medium.com/"
+            target="_blank"
+            ><i class="fab fa-medium"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/jamie-roszel-59a2a395/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://twitter.com/jamieroszel"
+            target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://github.com/jamieroszel"
+            target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
